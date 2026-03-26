@@ -101,9 +101,9 @@ Venus is the second planet[^inline-0] from the sun.
 ## API
 
 This package exports no identifiers.
-The default export is [`remarkInlineFootnotes`][api-remark-gfm].
+The default export is [`remarkInlineFootnote`][api-remark-gfm].
 
-### `unified().use(remarkInlineFootnotes)`
+### `unified().use(remarkInlineFootnote)`
 
 Add support for inline footnotes.
 
@@ -113,7 +113,7 @@ Nothing (`undefined`).
 
 ## Security
 
-Use of `remark-inline-footnotes` does not involve **[rehype][]** ([hast][]) or user
+Use of `remark-inline-footnote` does not involve **[rehype][]** ([hast][]) or user
 content so there are no openings for [cross-site scripting (XSS)][wiki-xss]
 attacks.
 
@@ -141,3 +141,4 @@ attacks.
 [remark-rehype]: https://github.com/remarkjs/remark-rehype
 [unified]: https://github.com/unifiedjs/unified
 [Obsidian]: https://obsidian.md
+[wiki-xss]: https://en.wikipedia.org/wiki/Cross-site_scripting
