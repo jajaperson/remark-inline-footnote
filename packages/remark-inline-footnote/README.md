@@ -1,4 +1,4 @@
-# remark-gfm
+# remark-inline-footnote
 
 **[remark][]** plugin to support for [Obsidian][]-style inline footnotes.
 

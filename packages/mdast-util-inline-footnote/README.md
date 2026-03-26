@@ -64,4 +64,5 @@ and a GFM footnote definition (at the end of the tree).
 [api-frommarkdown]: #inlinefootnotefrommarkdown
 [frommarkdownextension]: https://github.com/syntax-tree/mdast-util-from-markdown#extension
 [api-togfm]: #inlinefootnotetogfm
-[micromark-inline-footnote]: https://github.com/jajaperson/remark-inline-footnote/tree/main/packages/micromark-extension-inline-footnote
+[micromark-extension-inline-footnote]: https://github.com/jajaperson/remark-inline-footnote/tree/main/packages/micromark-extension-inline-footnote
+[micromark-extension-inline-footnote]: https://github.com/jajaperson/remark-inline-footnote/tree/main/packages/micromark-extension-inline-footnote
