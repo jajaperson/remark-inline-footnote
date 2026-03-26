@@ -1,0 +1,30 @@
+{
+	"author": "James Jensen <jamesarthurjensen@gmail.com> (https://jajaperson.me)",
+	"name": "mdast-util-inline-footnote",
+	"type": "module",
+	"main": "index.js",
+	"version": "0.0.0",
+	"scripts": {
+		"test": "node --conditions development test/index.js",
+		"write-fixtures": "node --conditions development test/write-fixtures.js"
+	},
+	"keywords": [
+		"remark",
+		"markdown",
+		"footnote",
+		"obsidian"
+	],
+	"license": "MIT",
+	"packageManager": "pnpm@10.20.0",
+	"bugs": "https://github.com/jajaperson/remark-inline-footnotes/issues",
+	"contributors": [
+		"James Jensen <jamesarthurjensen@gmail.com> (https://jajaperson.me)"
+	],
+	"dependencies": {
+		"@types/mdast": "^4.0.4"
+	},
+	"devDependencies": {
+		"micromark-extension-inline-footnote": "workspace:*",
+		"mdast-util-from-markdown": "^2.0.3"
+	}
+}

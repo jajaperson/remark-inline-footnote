@@ -1,0 +1,25 @@
+{
+	"author": "James Jensen <jamesarthurjensen@gmail.com> (https://jajaperson.me)",
+	"name": "micromark-extension-inline-footnote",
+	"type": "module",
+	"main": "index.js",
+	"version": "0.0.0",
+	"keywords": [
+		"remark",
+		"markdown",
+		"footnote",
+		"obsidian"
+	],
+	"license": "MIT",
+	"packageManager": "pnpm@10.20.0",
+	"bugs": "https://github.com/jajaperson/remark-inline-footnotes/issues",
+	"contributors": [
+		"James Jensen <jamesarthurjensen@gmail.com> (https://jajaperson.me)"
+	],
+	"dependencies": {
+		"devlop": "^1.1.0",
+		"micromark-util-symbol": "^2.0.1",
+		"micromark-util-types": "^2.0.2",
+		"micromark-core-commonmark": "2.0.3"
+	}
+}

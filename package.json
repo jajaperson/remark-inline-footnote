@@ -1,0 +1,26 @@
+{
+	"author": "James Jensen <jamesarthurjensen@gmail.com> (https://jajaperson.me)",
+	"private": true,
+	"type": "module",
+	"keywords": [
+		"remark",
+		"markdown",
+		"footnote",
+		"obsidian"
+	],
+	"scripts": {
+		"test": "pnpm -r test",
+		"format": "prettier ."
+	},
+	"license": "MIT",
+	"packageManager": "pnpm@10.20.0",
+	"devDependencies": {
+		"@types/node": "^25.5.0",
+		"prettier": "^3.8.1",
+		"typescript": "^6.0.2"
+	},
+	"bugs": "https://github.com/jajaperson/remark-inline-footnotes/issues",
+	"contributors": [
+		"James Jensen <jamesarthurjensen@gmail.com> (https://jajaperson.me)"
+	]
+}

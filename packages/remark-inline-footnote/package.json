@@ -1,0 +1,38 @@
+{
+	"author": "James Jensen <jamesarthurjensen@gmail.com> (https://jajaperson.me)",
+	"name": "remark-inline-footnotes",
+	"type": "module",
+	"main": "index.js",
+	"version": "0.0.0",
+	"scripts": {
+		"test": "node --conditions development test/index.js",
+		"write-fixtures": "node --conditions development test/write-fixtures.js"
+	},
+	"keywords": [
+		"remark",
+		"markdown",
+		"footnote",
+		"obsidian"
+	],
+	"license": "MIT",
+	"packageManager": "pnpm@10.20.0",
+	"bugs": "https://github.com/jajaperson/remark-inline-footnotes/issues",
+	"contributors": [
+		"James Jensen <jamesarthurjensen@gmail.com> (https://jajaperson.me)"
+	],
+	"dependencies": {
+		"@types/mdast": "^4.0.4",
+		"mdast-util-inline-footnote": "workspace:*",
+		"micromark-extension-inline-footnote": "workspace:*",
+		"rehype-stringify": "^10.0.1",
+		"remark-parse": "^11.0.0",
+		"remark-stringify": "^11.0.0",
+		"unified": "^11.0.5",
+		"unist-util-visit": "^5.1.0"
+	},
+	"devDependencies": {
+		"remark-gfm": "^4.0.1",
+		"remark-rehype": "^11.1.2",
+		"vfile": "^6.0.3"
+	}
+}

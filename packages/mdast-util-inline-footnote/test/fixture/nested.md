@@ -1,0 +1,1 @@
+The proposition in the footnote is true^[The proposition in the footnote is true^[The proposition in the footnote is true^[The proposition in the body text is false].].].

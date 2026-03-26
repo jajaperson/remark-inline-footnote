@@ -1,0 +1,197 @@
+{
+	"type": "root",
+	"children": [
+		{
+			"type": "paragraph",
+			"children": [
+				{
+					"type": "text",
+					"value": "The proposition in the footnote is true",
+					"position": {
+						"start": {
+							"line": 1,
+							"column": 1,
+							"offset": 0
+						},
+						"end": {
+							"line": 1,
+							"column": 40,
+							"offset": 39
+						}
+					}
+				},
+				{
+					"type": "inlineFootnote",
+					"children": [
+						{
+							"type": "text",
+							"value": "The proposition in the footnote is true",
+							"position": {
+								"start": {
+									"line": 1,
+									"column": 42,
+									"offset": 41
+								},
+								"end": {
+									"line": 1,
+									"column": 81,
+									"offset": 80
+								}
+							}
+						},
+						{
+							"type": "inlineFootnote",
+							"children": [
+								{
+									"type": "text",
+									"value": "The proposition in the footnote is true",
+									"position": {
+										"start": {
+											"line": 1,
+											"column": 83,
+											"offset": 82
+										},
+										"end": {
+											"line": 1,
+											"column": 122,
+											"offset": 121
+										}
+									}
+								},
+								{
+									"type": "inlineFootnote",
+									"children": [
+										{
+											"type": "text",
+											"value": "The proposition in the body text is false",
+											"position": {
+												"start": {
+													"line": 1,
+													"column": 124,
+													"offset": 123
+												},
+												"end": {
+													"line": 1,
+													"column": 165,
+													"offset": 164
+												}
+											}
+										}
+									],
+									"position": {
+										"start": {
+											"line": 1,
+											"column": 122,
+											"offset": 121
+										},
+										"end": {
+											"line": 1,
+											"column": 166,
+											"offset": 165
+										}
+									}
+								},
+								{
+									"type": "text",
+									"value": ".",
+									"position": {
+										"start": {
+											"line": 1,
+											"column": 166,
+											"offset": 165
+										},
+										"end": {
+											"line": 1,
+											"column": 167,
+											"offset": 166
+										}
+									}
+								}
+							],
+							"position": {
+								"start": {
+									"line": 1,
+									"column": 81,
+									"offset": 80
+								},
+								"end": {
+									"line": 1,
+									"column": 168,
+									"offset": 167
+								}
+							}
+						},
+						{
+							"type": "text",
+							"value": ".",
+							"position": {
+								"start": {
+									"line": 1,
+									"column": 168,
+									"offset": 167
+								},
+								"end": {
+									"line": 1,
+									"column": 169,
+									"offset": 168
+								}
+							}
+						}
+					],
+					"position": {
+						"start": {
+							"line": 1,
+							"column": 40,
+							"offset": 39
+						},
+						"end": {
+							"line": 1,
+							"column": 170,
+							"offset": 169
+						}
+					}
+				},
+				{
+					"type": "text",
+					"value": ".",
+					"position": {
+						"start": {
+							"line": 1,
+							"column": 170,
+							"offset": 169
+						},
+						"end": {
+							"line": 1,
+							"column": 171,
+							"offset": 170
+						}
+					}
+				}
+			],
+			"position": {
+				"start": {
+					"line": 1,
+					"column": 1,
+					"offset": 0
+				},
+				"end": {
+					"line": 1,
+					"column": 171,
+					"offset": 170
+				}
+			}
+		}
+	],
+	"position": {
+		"start": {
+			"line": 1,
+			"column": 1,
+			"offset": 0
+		},
+		"end": {
+			"line": 1,
+			"column": 171,
+			"offset": 170
+		}
+	}
+}

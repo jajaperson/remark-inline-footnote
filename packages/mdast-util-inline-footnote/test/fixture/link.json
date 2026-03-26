@@ -1,0 +1,150 @@
+{
+	"type": "root",
+	"children": [
+		{
+			"type": "paragraph",
+			"children": [
+				{
+					"type": "text",
+					"value": "Venus is the second planet",
+					"position": {
+						"start": {
+							"line": 1,
+							"column": 1,
+							"offset": 0
+						},
+						"end": {
+							"line": 1,
+							"column": 27,
+							"offset": 26
+						}
+					}
+				},
+				{
+					"type": "inlineFootnote",
+					"children": [
+						{
+							"type": "text",
+							"value": "See ",
+							"position": {
+								"start": {
+									"line": 1,
+									"column": 29,
+									"offset": 28
+								},
+								"end": {
+									"line": 1,
+									"column": 33,
+									"offset": 32
+								}
+							}
+						},
+						{
+							"type": "link",
+							"title": null,
+							"url": "https://en.wikipedia.org/wiki/Venus",
+							"children": [
+								{
+									"type": "text",
+									"value": "Wikipedia",
+									"position": {
+										"start": {
+											"line": 1,
+											"column": 34,
+											"offset": 33
+										},
+										"end": {
+											"line": 1,
+											"column": 43,
+											"offset": 42
+										}
+									}
+								}
+							],
+							"position": {
+								"start": {
+									"line": 1,
+									"column": 33,
+									"offset": 32
+								},
+								"end": {
+									"line": 1,
+									"column": 81,
+									"offset": 80
+								}
+							}
+						},
+						{
+							"type": "text",
+							"value": ".",
+							"position": {
+								"start": {
+									"line": 1,
+									"column": 81,
+									"offset": 80
+								},
+								"end": {
+									"line": 1,
+									"column": 82,
+									"offset": 81
+								}
+							}
+						}
+					],
+					"position": {
+						"start": {
+							"line": 1,
+							"column": 27,
+							"offset": 26
+						},
+						"end": {
+							"line": 1,
+							"column": 83,
+							"offset": 82
+						}
+					}
+				},
+				{
+					"type": "text",
+					"value": " from the sun.",
+					"position": {
+						"start": {
+							"line": 1,
+							"column": 83,
+							"offset": 82
+						},
+						"end": {
+							"line": 1,
+							"column": 97,
+							"offset": 96
+						}
+					}
+				}
+			],
+			"position": {
+				"start": {
+					"line": 1,
+					"column": 1,
+					"offset": 0
+				},
+				"end": {
+					"line": 1,
+					"column": 97,
+					"offset": 96
+				}
+			}
+		}
+	],
+	"position": {
+		"start": {
+			"line": 1,
+			"column": 1,
+			"offset": 0
+		},
+		"end": {
+			"line": 1,
+			"column": 97,
+			"offset": 96
+		}
+	}
+}
