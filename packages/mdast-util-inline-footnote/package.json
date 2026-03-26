@@ -1,6 +1,7 @@
 {
 	"author": "James Jensen <jamesarthurjensen@gmail.com> (https://jajaperson.me)",
 	"name": "mdast-util-inline-footnote",
+	"repository": "https://github.com/jajaperson/remark-inline-footnote/tree/main/packages/mdast-util-inline-footnote",
 	"type": "module",
 	"main": "index.js",
 	"version": "0.0.1",
