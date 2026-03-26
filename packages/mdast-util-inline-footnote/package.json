@@ -3,7 +3,7 @@
 	"name": "mdast-util-inline-footnote",
 	"type": "module",
 	"main": "index.js",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"scripts": {
 		"test": "node --conditions development test/index.js",
 		"write-fixtures": "node --conditions development test/write-fixtures.js"
@@ -19,6 +19,11 @@
 	"bugs": "https://github.com/jajaperson/remark-inline-footnotes/issues",
 	"contributors": [
 		"James Jensen <jamesarthurjensen@gmail.com> (https://jajaperson.me)"
+	],
+	"files": [
+		"index.js",
+		"index.d.ts",
+		"lib"
 	],
 	"dependencies": {
 		"@types/mdast": "^4.0.4"
