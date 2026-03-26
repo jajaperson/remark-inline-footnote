@@ -33,6 +33,9 @@ importers:
       micromark-extension-inline-footnote:
         specifier: workspace:*
         version: link:../micromark-extension-inline-footnote
+      unist-util-visit:
+        specifier: ^5.1.0
+        version: 5.1.0
 
   packages/micromark-extension-inline-footnote:
     dependencies:
@@ -72,9 +75,6 @@ importers:
       unified:
         specifier: ^11.0.5
         version: 11.0.5
-      unist-util-visit:
-        specifier: ^5.1.0
-        version: 5.1.0
     devDependencies:
       remark-gfm:
         specifier: ^4.0.1

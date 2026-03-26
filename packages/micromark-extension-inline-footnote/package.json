@@ -4,12 +4,13 @@
 	"repository": "https://github.com/jajaperson/remark-inline-footnote/tree/main/packages/micromark-extension-inline-footnote",
 	"type": "module",
 	"main": "index.js",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"keywords": [
 		"remark",
 		"markdown",
 		"footnote",
-		"obsidian"
+		"obsidian",
+		"micromark"
 	],
 	"license": "MIT",
 	"packageManager": "pnpm@10.20.0",

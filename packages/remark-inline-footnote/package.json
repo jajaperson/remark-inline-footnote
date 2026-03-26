@@ -4,7 +4,7 @@
 	"repository": "https://github.com/jajaperson/remark-inline-footnote/tree/main/packages/remark-inline-footnote",
 	"type": "module",
 	"main": "index.js",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"scripts": {
 		"test": "node --conditions development test/index.js",
 		"write-fixtures": "node --conditions development test/write-fixtures.js"
@@ -33,8 +33,7 @@
 		"rehype-stringify": "^10.0.1",
 		"remark-parse": "^11.0.0",
 		"remark-stringify": "^11.0.0",
-		"unified": "^11.0.5",
-		"unist-util-visit": "^5.1.0"
+		"unified": "^11.0.5"
 	},
 	"devDependencies": {
 		"remark-gfm": "^4.0.1",
