@@ -35,6 +35,7 @@ export default function remarkInlineFootnote() {
 		/** @type FootnoteDefinition[] */
 		const defs = [];
 		visit(tree, "inlineFootnote", function (node, index, parent) {
+			/* c8 ignore next */
 			if (!parent || typeof index !== "number") return;
 
 			const children = node.children;

@@ -1,4 +1,4 @@
-export { inlineFootnote } from "./index.js";
+export { inlineFootnote } from "./lib/index.js";
 
 /**
  * Augment.

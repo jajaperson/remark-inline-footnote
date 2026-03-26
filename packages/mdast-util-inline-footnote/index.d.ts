@@ -1,7 +1,7 @@
-import { BlockContent, Parent, DefinitionContent, PhrasingContent } from "mdast";
-export { inlineFootnoteFromMarkdown } from "./types.js";
+import { Parent, PhrasingContent } from "mdast";
+export { inlineFootnoteFromMarkdown } from "./lib/index.js";
 
-interface InlineFootnote extends Parent {
+export interface InlineFootnote extends Parent {
 	type: "inlineFootnote";
 	children: PhrasingContent[];
 }

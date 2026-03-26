@@ -10,14 +10,18 @@
 	],
 	"scripts": {
 		"test": "pnpm -r test",
-		"format": "prettier ."
+		"format": "prettier --write -- .",
+		"test-coverage": "c8 --100 --reporter lcov -- pnpm test",
+		"clean": "tsc --build --clean",
+		"build": "tsc --build --clean && tsc --build"
 	},
 	"license": "MIT",
 	"packageManager": "pnpm@10.20.0",
 	"devDependencies": {
-		"@types/node": "^25.5.0",
+		"c8": "^11.0.0",
 		"prettier": "^3.8.1",
-		"typescript": "^6.0.2"
+		"typescript": "^6.0.2",
+		"@types/node": "^25.5.0"
 	},
 	"bugs": "https://github.com/jajaperson/remark-inline-footnotes/issues",
 	"contributors": [

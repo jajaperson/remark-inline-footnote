@@ -1,16 +1,17 @@
 {
 	"compilerOptions": {
+		"checkJs": true,
 		"customConditions": ["development"],
+		"declaration": true,
+		"declarationMap": true,
+		"emitDeclarationOnly": true,
+		"exactOptionalPropertyTypes": true,
 		"lib": ["es2022"],
+		"types": ["node"],
 		"module": "node16",
 		"strict": true,
 		"target": "es2022"
 	},
 	"exclude": ["coverage/", "node_modules/"],
-	"include": [
-		"**/*.js",
-		"packages/*/index.d.ts",
-		"packages/mdast-util-inline-footnote/index.d.ts",
-		"packages/micromark-extension-inline-footnote/index.d.ts"
-	]
+	"include": ["**/*.js", "packages/*/index.d.ts"]
 }

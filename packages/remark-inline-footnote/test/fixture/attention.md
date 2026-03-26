@@ -1,1 +1,0 @@
-The footnote on this sentence is true.^[The sentence referencing _this_ footnote **is** false]
