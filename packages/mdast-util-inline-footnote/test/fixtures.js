@@ -1,6 +1,7 @@
 import { fromMarkdown } from "mdast-util-from-markdown";
 import { inlineFootnote } from "micromark-extension-inline-footnote";
 import { inlineFootnoteFromMarkdown } from "../index.js";
+import { examples } from "../../../examples/examples.js";
 
 export const inputDir = new URL("../../../examples/", import.meta.url);
 export const outputDir = new URL("fixture/", import.meta.url);
@@ -8,14 +9,7 @@ export const outputDir = new URL("fixture/", import.meta.url);
 /**
  * @type {Array<{description: string, input: string, output: string, process: (inp: Buffer) => string}>}
  */
-export const fixtures = Object.entries({
-	basic: "Should give an AST for a basic footnote",
-	attention: "Should give an AST for a footnote with attention constructs",
-	link: "Should give an AST for a footnote with a link",
-	eof: "Should handle premature file endings correctly",
-	nested: "Should handle nested footnotes correctly",
-	caret: "Should leave stray carets alone",
-}).map(([name, description]) => ({
+export const fixtures = Object.entries(examples).map(([name, description]) => ({
 	description,
 	input: `${name}.md`,
 	output: `${name}.json`,

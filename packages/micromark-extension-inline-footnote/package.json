@@ -4,7 +4,7 @@
 	"repository": "https://github.com/jajaperson/remark-inline-footnote/tree/main/packages/micromark-extension-inline-footnote",
 	"type": "module",
 	"main": "index.js",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"keywords": [
 		"remark",
 		"markdown",
@@ -26,7 +26,6 @@
 	"dependencies": {
 		"devlop": "^1.1.0",
 		"micromark-util-symbol": "^2.0.1",
-		"micromark-util-types": "^2.0.2",
-		"micromark-core-commonmark": "2.0.3"
+		"micromark-util-types": "^2.0.2"
 	}
 }

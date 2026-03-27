@@ -7,6 +7,7 @@ import remarkRehype from "remark-rehype";
 import rehypeStringify from "rehype-stringify";
 import { unified } from "unified";
 import remarkInlineFootnote from "../index.js";
+import { examples } from "../../../examples/examples.js";
 
 export const inputDir = new URL("../../../examples/", import.meta.url);
 export const outputDir = new URL("fixture/", import.meta.url);
@@ -14,14 +15,7 @@ export const outputDir = new URL("fixture/", import.meta.url);
 /**
  * @type {Array<{description: string, input: string, output: string, process: (inp: Buffer) => Promise<VFile>}>}
  */
-export const fixtures = Object.entries({
-	basic: "Should handle a basic footnote",
-	attention: "Should handle a footnote with attention constructs",
-	link: "Should handle a footnote with a link",
-	eof: "Should handle premature file endings correctly",
-	nested: "Should handle nested footnotes correctly",
-	caret: "Should leave stray carets alone",
-}).flatMap(([name, description]) => {
+export const fixtures = Object.entries(examples).flatMap(([name, description]) => {
 	/** @type {{description: string, input: string, output: string, process: (inp: Buffer) => Promise<VFile>}} */
 	const toMd = {
 		description: description + " when compiling to markdown",
