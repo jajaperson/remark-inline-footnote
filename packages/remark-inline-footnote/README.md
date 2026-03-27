@@ -83,8 +83,7 @@ const file = await unified()
 	.use(remarkParse)
 	.use(remarkGfm)
 	.use(remarkInlineFootnote)
-	.use(remarkRehype)
-	.use(rehypeStringify)
+	.use(remarkStringify)
 	.process(await read("example.md"));
 
 console.log(String(file));
