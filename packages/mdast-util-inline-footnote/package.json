@@ -4,7 +4,7 @@
 	"repository": "https://github.com/jajaperson/remark-inline-footnote/tree/main/packages/mdast-util-inline-footnote",
 	"type": "module",
 	"main": "index.js",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"scripts": {
 		"test": "node --conditions development test/index.js",
 		"write-fixtures": "node --conditions development test/write-fixtures.js"
@@ -29,11 +29,11 @@
 		"lib"
 	],
 	"dependencies": {
-		"@types/mdast": "^4.0.4"
+		"@types/mdast": "^4.0.4",
+		"unist-util-visit": "^5.1.0"
 	},
 	"devDependencies": {
 		"micromark-extension-inline-footnote": "workspace:*",
-		"mdast-util-from-markdown": "^2.0.3",
-		"unist-util-visit": "^5.1.0"
+		"mdast-util-from-markdown": "^2.0.3"
 	}
 }
